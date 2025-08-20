@@ -1,7 +1,13 @@
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+import Button from "primevue/button";
+
+const ClickingHandler = (): void => {
+  console.log("you are clicking the button");
+};
+</script>
 
 <template>
-  <div>
-    <p>hello world</p>
+  <div class="p-10">
+    <Button label="Clicking" @click="ClickingHandler" />
   </div>
 </template>
