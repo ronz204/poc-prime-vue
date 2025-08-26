@@ -1,11 +1,11 @@
 import "./style.css";
+import Main from "@App/Main.vue";
+import PrimeVue from "primevue/config"
+
 import { Theme } from "./theme";
 import { createApp } from "vue";
-import Main from "@App/Main.vue";
-
-import { Router } from "./router";
 import { createPinia } from "pinia";
-import PrimeVue from "primevue/config"
+import { Router } from "./router";
 
 const app = createApp(Main);
 
